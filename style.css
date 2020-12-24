@@ -1,0 +1,203 @@
+body{
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: #282c34;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* font style */
+
+h1 {
+    font-size: 70px;
+    text-align: center;
+    margin: 100px auto;
+    
+}
+
+h2{
+    font-size: 30px;;
+}
+
+h3 {
+    font-size: 40px;
+    text-align: center;
+    background: -webkit-linear-gradient(rgb(5, 238, 226), rgb(221, 224, 2));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h5 {
+    letter-spacing: 1px;
+    font-weight: 100;
+    font-size: 25px;
+    text-decoration: underline;
+    margin: 0 auto;
+    color: #ebebeb;
+}
+
+p {
+    font-weight: 300;
+    font-size: 14px;
+    margin: 10px 20px;
+    color: #d6c3a4;
+}
+
+.name-title {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.name-title div {
+    margin: 12px;
+}
+
+.name-color {
+    color: #00a6ff;
+}
+
+span.color-text {
+    color: rgb(0, 255, 179);
+}
+
+span#skills-array {
+    color: rgb(255, 230, 0);
+}
+
+/* font style */
+
+/* links */
+
+
+ul {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+}
+
+li {
+    float: left;
+
+    
+}
+
+li a{
+    display: block;
+    margin-right: 30px;
+    font-size: 23px;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+
+
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    margin: 100px auto;
+}
+
+.navbar li a{
+    color: whitesmoke;
+}
+
+
+.navbar li a:hover {
+    color:rgb(12, 170, 170)
+}
+
+
+.project-links{  
+    display: flex;
+    justify-content: center;
+    color: #e4c40f;
+}
+
+.project-links li a{
+    color: #e4c40f;
+}
+
+.project-links li a:hover{
+    color:rgb(12, 170, 170);
+}
+
+
+i {
+    margin: 10px;
+    font-size: 28px;
+}
+
+.fa-linkedin {
+   color: #2c91c0
+}
+.fa-github-square{
+    color: #c45a3a;
+}
+.fa-github-alt {
+    color: #a3604c;
+}
+.fa-laptop-code {
+    color: rgb(219, 219, 150);
+}
+.fa-file-pdf {
+    color: rgb(219, 48, 48);
+}
+
+.fa-globe-americas {
+    color: rgb(12, 143, 82);
+}
+
+/* links */
+
+/* images */
+
+.web-image {
+    margin: 50px 0px;
+    width: 450px;
+    padding: 10px;
+    border-radius: 5%;
+    box-shadow: 1px 0px 20px 10px rgba(29, 78, 143, 0.5)
+}
+
+.mobile-image {
+    margin: 30px 100px;
+    height: 500px;
+    width: 250px;
+    padding: 10px;
+    border-radius: 5%;
+    box-shadow: 1px 0px 20px 10px rgba(29, 78, 143, 0.5)
+}
+
+/* images */
+
+.introduction {
+    margin: 150px 0px 500px 0px;
+}
+
+#projects {
+    margin-bottom: 200px;
+
+}
+
+.container {
+    display: flex;
+    margin-top: 50px;
+}
+
+.box1, .box2 {
+    /* border-radius: 1px;
+    border-color: black;
+    border-style: solid; */
+    width: 100%;
+    /* margin: 0 20px; */
+}
+
+.box1 {
+    margin-right: 30px;   
+}
+
+.box2 {
+    margin-left: 30px;   
+}
