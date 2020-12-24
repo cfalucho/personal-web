@@ -1,3 +1,10 @@
+html{
+    margin:0;
+    padding:0;
+    overflow:auto;
+    width:100%;
+}
+
 body{
     max-width: 960px;
     margin: 0 auto;
@@ -149,6 +156,41 @@ i {
     color: rgb(12, 143, 82);
 }
 
+.fa-angle-double-up {
+    font-size: 48px;
+    color: red;
+}
+
+button{
+    background-color: transparent;
+    border-color: turquoise;
+    padding: 40px;
+    cursor: pointer;
+}
+
+button:focus { 
+    outline-style: none; }
+
+
+.scrollBtn {
+    width: 100%;
+    margin: -100px 0px 100px 0px;
+    text-align: center ;   
+
+}
+
+.scrollToTopBtn {
+    padding: 1px 300px;
+    border-radius: 50px;
+
+}
+
+.scrollToTopBtn:hover{
+    background-color: rgb(50, 65, 82);
+    
+}
+
+
 /* links */
 
 /* images */
@@ -172,7 +214,7 @@ i {
 
 /* images */
 
-.introduction {
+#introduction {
     margin: 150px 0px 500px 0px;
 }
 

@@ -4,6 +4,12 @@ function jumpTo () {
 
 }
 
+function scrollToTop() {
+
+  window.scrollTo({top: 0, behavior: 'smooth'});
+  
+  }
+
 
 // function to change skills text every second
 function changeText (skillsArray, i) {
