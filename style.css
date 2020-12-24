@@ -153,7 +153,11 @@ i {
 }
 
 .fa-globe-americas {
-    color: rgb(12, 143, 82);
+    color: rgb(39, 101, 143);
+}
+
+.fa-tasks{
+    color:rgb(114, 190, 94);
 }
 
 .fa-angle-double-up {
@@ -166,7 +170,7 @@ button{
     border-color: turquoise;
     padding: 40px;
     cursor: pointer;
-    padding: 1px 300px;
+    padding: 0 300px;
     border-radius: 50px;
 }
 
