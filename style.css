@@ -166,10 +166,18 @@ button{
     border-color: turquoise;
     padding: 40px;
     cursor: pointer;
+    padding: 1px 300px;
+    border-radius: 50px;
 }
 
-button:focus { 
-    outline-style: none; }
+    button:focus { 
+        outline-style: none; 
+    }
+
+    button:hover{
+        background-color: rgb(50, 65, 82);
+        
+    }
 
 
 .scrollBtn {
@@ -179,16 +187,7 @@ button:focus {
 
 }
 
-.scrollToTopBtn {
-    padding: 1px 300px;
-    border-radius: 50px;
 
-}
-
-.scrollToTopBtn:hover{
-    background-color: rgb(50, 65, 82);
-    
-}
 
 
 /* links */
