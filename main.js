@@ -4,6 +4,7 @@ function jumpTo () {
 
 }
 
+// scroll to the top
 function scrollToTop() {
     window.scrollTo({top: 0, behavior: 'smooth'});
 }
@@ -23,6 +24,7 @@ function changeText (skillsArray, i) {
 
 
 // store skills in an array
-var skillsArray = ["HTML", "CSS", "Bootstrap", "GitHub", "MySQL", "Git", "Browser Testing", "MongoDB", "Responsive Design", "JavaScript", ".NET"]
+var skillsArray = ["HTML", "CSS", "effective communication", "Bootstrap", "GitHub", "MySQL", "Git", "debugging", "MongoDB", 
+                   "Responsive design","collaboration", "JavaScript", ".NET", "analytics", "  SEO"]
 
 changeText(skillsArray, 0);
