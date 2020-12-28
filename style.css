@@ -363,3 +363,16 @@ button{
     }
 
 /* media queries */
+
+/* footer */
+
+footer {
+    margin: 50px auto;
+}
+
+p.copyright {
+    
+    text-align: center;
+}
+
+/* footer */

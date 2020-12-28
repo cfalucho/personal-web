@@ -25,6 +25,6 @@ function changeText (skillsArray, i) {
 
 // store skills in an array
 var skillsArray = ["HTML", "CSS", "effective communication", "Bootstrap", "GitHub", "MySQL", "Git", "debugging", "MongoDB", 
-                   "responsive design","collaboration", "JavaScript", ".NET", "analytics", "  SEO"]
+                   "responsive design","collaboration", "JavaScript", ".NET", "analytics"]
 
 changeText(skillsArray, 0);
