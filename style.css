@@ -69,6 +69,10 @@ span.color-text {
     color: rgb(0, 255, 179);
 }
 
+span.red-text {
+    color: rgb(255, 159, 159);
+}
+
 span#skills-array {
     color: rgb(255, 230, 0);
 }
