@@ -28,3 +28,7 @@ var skillsArray = ["HTML", "CSS", "effective communication", "Bootstrap", "GitHu
                    "responsive design","collaboration", "JavaScript", ".NET", "analytics"]
 
 changeText(skillsArray, 0);
+
+
+
+
