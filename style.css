@@ -65,7 +65,7 @@ p {
     letter-spacing: 2px; /* Adjust as needed */
     animation: 
         typing 3.0s steps(40, end),
-        blink-caret .50s step-end infinite;
+        blink-caret .45s step-end infinite;
 }
 
 /* The typing effect */

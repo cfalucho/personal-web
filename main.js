@@ -33,7 +33,7 @@ changeText(skillsArray, 0);
 
 let i = 0 ; 
 let nameTitle = "ChristianDior Falucho"
-let speed = 4;
+let speed = 50;
 
 
 window.onload = function (){
