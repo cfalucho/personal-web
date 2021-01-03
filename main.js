@@ -29,6 +29,28 @@ var skillsArray = ["HTML", "CSS", "effective communication", "Bootstrap", "GitHu
 
 changeText(skillsArray, 0);
 
+// type speed for name title
+
+let i = 0 ; 
+let nameTitle = "ChristianDior Falucho"
+let speed = 4;
+
+
+window.onload = function (){
+  typeName();
+}
+
+
+function typeName() {
+  if(i < nameTitle.length){
+    document.getElementById('nameTitle').innerHTML += nameTitle.charAt(i)
+      i++;
+      setTimeout(typeName, speed)
+  }
+}
+
+
+
 
 
 
