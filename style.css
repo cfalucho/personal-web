@@ -149,6 +149,9 @@ li a{
 
 .navbar li a{
     color: whitesmoke;
+
+
+    
     
 }
 
@@ -314,12 +317,12 @@ button{
 
     @media screen and (max-width: 1079px) and (min-width: 754px) {
         h1{
-            font-size: 60px;
+            font-size: 40px;
             padding: 0 50px;
         }
 
         h2 {
-            font-size: 20px;
+            font-size: 18px;
         }
 
         i {
@@ -361,12 +364,12 @@ button{
             width: 350px;
         }
         h1 {
-            font-size: 30px;
+            font-size: 20px;
             margin: 50px auto;
         }
 
         h2 {
-            font-size: 15px;
+            font-size: 13px;
         }
 
         li a {
