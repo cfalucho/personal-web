@@ -17,14 +17,19 @@ body{
 
 
 h1 {
-    font-size: 70px;
+    font-size: 60px;
     text-align: center;
     margin: 100px auto;
+    font-weight: 900;
+    color: #ffffff;
     
 }
 
 h2{
-    font-size: 30px;;
+    font-size: 22px;
+    font-weight: 100;
+    color: #dfdbdb;
+
 }
 
 h3 {
