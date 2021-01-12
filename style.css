@@ -96,6 +96,7 @@ p {
 
 span.color-text {
     color: rgb(0, 255, 179);
+    font-size: 30px;
 }
 
 span.red-text {
